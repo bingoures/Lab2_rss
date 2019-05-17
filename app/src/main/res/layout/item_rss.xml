@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/titleRSS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/descriptionRSS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:layout_below="@+id/titleRSS"/>
+
+    <TextView
+        android:id="@+id/dateRSS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/descriptionRSS"/>
+
+    <TextView
+        android:id="@+id/linkRSS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/dateRSS"/>
+
+
+</RelativeLayout>
